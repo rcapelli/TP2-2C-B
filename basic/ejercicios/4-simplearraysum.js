@@ -1,4 +1,7 @@
-const array = [1,2,3,4,0,5]
+
+
+const array = [1,2,3,4,0,50]
+
 
 let suma = sum(array)
 console.log(suma)

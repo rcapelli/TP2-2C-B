@@ -1,3 +1,4 @@
+
 let catA = 100
 let catB = 20
 let mouse = 70
@@ -36,7 +37,11 @@ function getCatPosition(a,b){
     if(a <= b){
         distance = b-a
         return distance
+<<<<<<< HEAD
     }else{
+=======
+    }else if(a > b){
+>>>>>>> 3e76de8a64558a40eb3e3432dc8aab4bb1e06e0a
         distance = a-b
         return distance
     }
