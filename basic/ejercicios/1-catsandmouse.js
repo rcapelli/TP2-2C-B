@@ -1,6 +1,6 @@
-let catA = -100
-let catB = -20
-let mouse = -70
+let catA = 100
+let catB = 20
+let mouse = 70
 
 
 catsAndMouse(catA,catB,mouse)
@@ -36,7 +36,7 @@ function getCatPosition(a,b){
     if(a <= b){
         distance = b-a
         return distance
-    }else if(a > b){
+    }else{
         distance = a-b
         return distance
     }
